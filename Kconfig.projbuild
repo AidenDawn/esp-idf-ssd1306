@@ -2,7 +2,7 @@ menu "SSD1306 Configuration"
 
     choice INTERFACE
         prompt "Interface"
-        default I2C_INTERFACE
+        default SSD1306_I2C_INTERFACE
         help
             Select Interface.
         config SSD1306_I2C_INTERFACE
